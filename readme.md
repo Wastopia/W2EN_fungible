@@ -1,4 +1,6 @@
-# ICRC-1, ICRC-2, and ICRC-3 Fungible Token
+# Waste2Earn W2EN Fungible Token
+
+W2EN Canister id: [jaqix-zqaaa-aaaao-qeybq-cai](https://dashboard.internetcomputer.org/canister/jaqix-zqaaa-aaaao-qeybq-cai)
 
 ## Overview
 This project is focused on the development and implementation of a fungible token standard, utilizing blockchain or distributed ledger technology. The core of the project is written in Motoko and is compatibility with the DFINITY Internet Computer platform.
