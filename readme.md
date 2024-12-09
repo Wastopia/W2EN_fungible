@@ -1,6 +1,7 @@
-# Waste2Earn W2EN Fungible Token
+# Waste2Earn "WASTE" Fungible Token
+LEDGER Canister id: [zozfm-uaaaa-aaaaj-qnfkq-cai](https://dashboard.internetcomputer.org/canister/zozfm-uaaaa-aaaaj-qnfkq-cai)
+INDEX Canister id: [za3ie-pqaaa-aaaaj-qnflq-cai](https://dashboard.internetcomputer.org/canister/za3ie-pqaaa-aaaaj-qnflq-cai)
 
-W2EN Canister id: [jaqix-zqaaa-aaaao-qeybq-cai](https://dashboard.internetcomputer.org/canister/jaqix-zqaaa-aaaao-qeybq-cai)
 
 ## Overview
 This project is focused on the development and implementation of a fungible token standard, utilizing blockchain or distributed ledger technology. The core of the project is written in Motoko and is compatibility with the DFINITY Internet Computer platform.
