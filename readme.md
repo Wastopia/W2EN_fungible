@@ -1,6 +1,7 @@
-# Waste2Earn "WASTE" Fungible Token
-LEDGER Canister id: [zozfm-uaaaa-aaaaj-qnfkq-cai](https://dashboard.internetcomputer.org/canister/zozfm-uaaaa-aaaaj-qnfkq-cai)
-INDEX Canister id: [za3ie-pqaaa-aaaaj-qnflq-cai](https://dashboard.internetcomputer.org/canister/za3ie-pqaaa-aaaaj-qnflq-cai)
+# Waste2Earn "Waste" ICRC-1 Fungible Token
+
+Ledger Canister ID: [zozfm-uaaaa-aaaaj-qnfkq-cai](https://dashboard.internetcomputer.org/canister/zozfm-uaaaa-aaaaj-qnfkq-cai)
+Index Canister ID: [za3ie-pqaaa-aaaaj-qnflq-cai](https://dashboard.internetcomputer.org/canister/za3ie-pqaaa-aaaaj-qnflq-cai)
 
 
 ## Overview
@@ -35,7 +36,7 @@ This project is focused on the development and implementation of a fungible toke
 - **Documentation**: Update documentation and comments within the code to reflect changes or additions to the project.
 
 ## Repository
-- [Project Repository](https://github.com/PanIndustrial-Org/ICRC_fungible)
+- [Project Repository](https://github.com/Wastopia/Waste_Token)
 
 ## License
 - MIT License

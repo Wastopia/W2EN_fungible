@@ -1,37 +1,26 @@
 {
-    "version": 1,
-    "canisters": {
-        
-        "token": {
-          "type": "motoko",
-          "main": "src/Token.mo",
-          "args": "-v --incremental-gc"
-        },
-        "prodtoken": {
-          "type": "motoko",
-          "gzip": true,
-          "main": "src/Token.mo",
-          "args": "--incremental-gc --release"
-        },
-        "allowlist": {
-          "type": "motoko",
-          "main": "src/examples/Allowlist.mo",
-          "args": "-v --incremental-gc"
-        },
-        "lotto": {
-          "type": "motoko",
-          "main": "src/examples/Lotto.mo",
-          "args": "-v --incremental-gc"
-        }
+  "canisters": {
+    "icrc1_ledger_canister": {
+      "args": "--incremental-gc --release",
+      "gzip": true,
+      "main": "src/Token.mo",
+      "type": "motoko"
     },
-    "defaults": {
-        "build": {
-            "packtool": "mops sources",
-            "args": ""
-        },
-        "replica": {
-          "subnet_type": "system"
-      }
+    "icrc1_index_canister": {
+      "type": "custom",
+      "candid": "src/icrc1_index/index.did",
+      "wasm": "src/icrc1_index/index.wasm.gz",
+      "init_arg": "(opt variant { Init = record { ledger_id = principal \"zozfm-uaaaa-aaaaj-qnfkq-cai\" } })"
     }
-    
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": "mops sources"
+    },
+    "replica": {
+      "subnet_type": "system"
+    }
+  },
+  "version": 1
 }
